@@ -1,8 +1,1 @@
-diff a/otra_prueba.txt b/otra_prueba.txt	(rejected hunks)
-@@ -1 +1,2 @@
- ñkfaskfaslkfñlsakfdlñkasdñl
-+jasdklfaslkfaslkfhalskjdhflkajsdhfkasdjl
-------------------------------------------------
-..................................................
-HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
-=================================================
+ñkfaskfaslkfñlsakfdlñkasdñl

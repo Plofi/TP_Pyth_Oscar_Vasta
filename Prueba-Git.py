@@ -2,3 +2,6 @@
  para recuperar versioes guardadas """
 print("prueba de Git")
 Print('àhora le agrago otra linea para la nueva version')
+""" este es un nuevo comentario >>>>>>>>>>>>>>>>>>>>>>>>>
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>"""

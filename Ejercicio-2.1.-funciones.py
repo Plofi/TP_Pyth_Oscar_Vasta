@@ -11,14 +11,19 @@ item que suma 10% al descuento que se aplique. """
 Desc_Art=(['Pan','Fideos','Leche','Gaseosa','Cerveza','Carne Vacuna','Dentifrico','Desodorante',])
 Precio_Art=([150,47,75,80,135,350,125,185])
 Um_Art=(['Kgr','paquete','Litro','botella','botella','Kgr','Un','Un'])
-Valor_Art=([])
+Valor_Compra=([])
+Cant_Compra=([])
+sigue=''
 b=int()
-# muestra los articulos y precios por pantalla
-print('ITEM | DESCRIPCIÓN |PRECIO| U/M ')
-for a in Desc_Art:
-    print(b,a,' '*(12-len(str(a))),'|',Precio_Art[b],' '*(4-len(str(Precio_Art[b]))),'|',Um_Art[b],' '*(7-len(str(Um_Art[b]))),'|')
-    b+=1  
-sigue=input('sigue ?')
+while sigue != 'N' and  sigue != 'n':
+        # muestra los articulos y precios por pantalla
+    print('ITEM | DESCRIPCIÓN |PRECIO| U/M ')
+    b=0
+    for a in Desc_Art:
+        print(b,a,' '*(12-len(str(a))),'|',Precio_Art[b],' '*(4-len(str(Precio_Art[b]))),'|',Um_Art[b],' '*(7-len(str(Um_Art[b]))),'|')
+        b+=1 
+    print('su compra:',lleva_art,lleva_pes)     
+    sigue=input('sigue ? <N> para terminar la compra o cualquier tecla para seguir')
 #
 #cont=0
 #while sigue = s or sigue='S':

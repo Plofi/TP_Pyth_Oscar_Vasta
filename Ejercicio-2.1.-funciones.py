@@ -10,13 +10,13 @@ item que suma 10% al descuento que se aplique. """
 # carga oferta de articulos en tablas en memoria
 Desc_Art=(['Pan','Fideos','Leche','Gaseosa','Cerveza','Carne Vacuna','Dentifrico','Desodorante',])
 Precio_Art=([150,47,75,80,135,350,125,185])
-Um_Art=(['  Kgr  ','paquete',' Litro ','botella','botella','  Kgr  ','  Un   ','  Un   '])
+Um_Art=(['Kgr','paquete','Litro','botella','botella','Kgr','Un','Un'])
 Valor_Art=([])
 b=int()
 # muestra los articulos y precios por pantalla
-print('ITEM | DESCRIPCIÓN | U/M  | PRECIO')
+print('ITEM | DESCRIPCIÓN |PRECIO| U/M ')
 for a in Desc_Art:
-    print(b,a,' '*(12-len(str(a))),'|') 
+    print(b,a,' '*(12-len(str(a))),'|',Precio_Art[b],' '*(4-len(str(Precio_Art[b]))),'|',Um_Art[b],' '*(7-len(str(Um_Art[b]))),'|')
     b+=1  
 sigue=input('sigue ?')
 #

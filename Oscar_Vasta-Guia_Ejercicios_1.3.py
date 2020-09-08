@@ -20,7 +20,7 @@ def circulo(s):
     supcir= pi * (abs(s)**2)
     return circun, supcir
 def esfera(s):
-    volesf= 3/4 * (abs(s)**3) * pi
+    volesf= 4/3 * (abs(s)**3) * pi
     return volesf
 def hipotenusa(ady,opu):
     hipo = (( abs(ady)**2 ) + ( abs(opu)**2 )) **0.5

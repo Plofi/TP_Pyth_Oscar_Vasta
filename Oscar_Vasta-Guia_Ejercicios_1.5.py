@@ -1,5 +1,5 @@
 # ejercicio 1.5 de Oscar Vasta 
-# calculo del factorial de un número !n 
+# calculo del factorial de un número !n
 import math
 I=int(1)
 F=int()
@@ -18,8 +18,3 @@ print()
 print('_'*80)
 #
 # END OF FILE
-
-
-
-
-

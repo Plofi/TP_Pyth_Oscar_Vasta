@@ -1,5 +1,10 @@
 # ejercicio 3 de Oscar Vasta
 a = input("ingrese un numero par")
+try:
+   A = int(a)
+except Exception as e:
+   print(e)
+   a = 0
 A = int(a)
 if A/2 == A//2:
     print(A)

@@ -16,7 +16,7 @@ def tu(ca):
     return ca[(len(ca)-3):]
 def cada2(ca):
     ca2=""
-    for i in range(0,(len(ca)-1),2):
+    for i in range(0,len(ca),2):
         ca2 += ca[i]
     return ca2
 def rcada2(ca):
